@@ -8,46 +8,47 @@ import Link from "next/link"
 
 const categories = [
   {
-    id: "apparel",
-    name: "Custom Apparel",
-    description: "T-shirts, Hoodies, Caps & More",
-    icon: Shirt,
-    color: "from-teal-500 to-emerald-600",
-    bgColor: "from-teal-50 to-emerald-50 dark:from-teal-950/20 dark:to-emerald-950/20",
-    count: "50+ Products",
+    id: "nameplates",
+    name: "Custom Nameplates",
+    description: "Personalized Door & Wall Nameplates",
+    icon: BadgeCheck, // Example icon for verified custom items
+    color: "from-amber-500 to-yellow-600",
+    bgColor: "from-amber-50 to-yellow-50 dark:from-amber-950/20 dark:to-yellow-950/20",
+    count: "20+ Designs",
     popular: true,
   },
   {
-    id: "drinkware",
-    name: "Custom Drinkware",
-    description: "Mugs, Bottles, Tumblers",
-    icon: Coffee,
-    color: "from-emerald-500 to-cyan-600",
-    bgColor: "from-emerald-50 to-cyan-50 dark:from-emerald-950/20 dark:to-cyan-950/20",
-    count: "30+ Products",
+    id: "wallart",
+    name: "Wall Art",
+    description: "Metal, Canvas & Wooden Wall Decor",
+    icon: Image, // Represents artwork
+    color: "from-rose-500 to-pink-600",
+    bgColor: "from-rose-50 to-pink-50 dark:from-rose-950/20 dark:to-pink-950/20",
+    count: "35+ Designs",
+    popular: true,
+  },
+  {
+    id: "furniture",
+    name: "Custom Furniture",
+    description: "Tables, Shelves & Custom Cabinets",
+    icon: Sofa, // Or Home icon if Sofa not available
+    color: "from-emerald-500 to-green-600",
+    bgColor: "from-emerald-50 to-green-50 dark:from-emerald-950/20 dark:to-green-950/20",
+    count: "15+ Products",
     popular: false,
   },
   {
-    id: "accessories",
-    name: "Phone Cases",
-    description: "Custom Phone & Tablet Cases",
-    icon: Smartphone,
-    color: "from-cyan-500 to-teal-600",
-    bgColor: "from-cyan-50 to-teal-50 dark:from-cyan-950/20 dark:to-teal-950/20",
-    count: "25+ Products",
-    popular: true,
-  },
-  {
-    id: "gifts",
-    name: "Custom Gifts",
-    description: "Personalized Gift Items",
-    icon: Gift,
-    color: "from-teal-600 to-emerald-700",
-    bgColor: "from-teal-50 to-emerald-50 dark:from-teal-950/20 dark:to-emerald-950/20",
+    id: "decor",
+    name: "Home Decor",
+    description: "Lamps, Clocks & Accessories",
+    icon: Lamp, // Use a lamp/bulb icon
+    color: "from-indigo-500 to-purple-600",
+    bgColor: "from-indigo-50 to-purple-50 dark:from-indigo-950/20 dark:to-purple-950/20",
     count: "40+ Products",
-    popular: false,
+    popular: true,
   },
-]
+];
+
 
 export default function Categories() {
   return (
