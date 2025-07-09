@@ -1,4 +1,4 @@
-import ProductsManager from "@/components/admin/products/products-manager"
+import ProductsManager from "@/app/admin/products/products-manager"
 
 export default function ProductsPage() {
   return <ProductsManager />
