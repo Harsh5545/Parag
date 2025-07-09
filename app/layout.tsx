@@ -15,11 +15,12 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://parag.vercel.app/"),
   title: "CustomCraft - Premium Customizable Products Store",
   description:
     "Create personalized products with live preview. Custom t-shirts, mugs, phone cases, and more. Premium quality with instant customization.",
   keywords: "custom products, personalized gifts, custom t-shirts, custom mugs, live preview, premium customization",
-    generator: 'v0.dev'
+    
 }
 
 export default function RootLayout({
